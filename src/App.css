@@ -1,0 +1,97 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.input-container input {
+  width: 500px;
+  height: 25px;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form button {
+  height: 50px;
+  margin-left: 20px;
+  position: relative;
+  top: 7px;
+}
+
+.todo-list {
+  width: 780px;
+  font-size: 30px;
+}
+
+.edit-input {
+  height: 25px;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.lists {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr 1fr;
+  margin-bottom: 12px;
+}
+
+.todo-list button {
+  font-size: 20px;
+  margin-left: 55px;
+}
+
+.remove-todo-button {
+  background-color: red;
+  color: aliceblue;
+  opacity: 0.8;
+}
+
+.add-todo-button {
+  font-size: 20px;
+  background-color: blue;
+  opacity: 0.8;
+  color: aliceblue;
+}
+
+/* .edit-todo-button {
+  background-color: red;
+  color: aliceblue;
+  opacity: 0.8;
+} */
+
+.save-todo-button {
+  background-color: cadetblue;
+  color: aliceblue;
+}
+
+.completed {
+  text-decoration-line: line-through;
+}
+
+.disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  background-color: #1a1a1a;
+}
